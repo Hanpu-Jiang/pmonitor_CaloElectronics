@@ -17,6 +17,7 @@ if [ "$num1" -gt "$num2" ]; then
 fi
 
 # Step 1: Go to directory macro/ and do make
+mkdir run_result
 cd macro
 make
 

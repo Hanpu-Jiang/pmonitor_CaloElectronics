@@ -7,7 +7,7 @@ void saHCal(const char * filename) {
   pinit();
   prun(1000); //frequncey
   find_hot_tower();
-  prun(100);
+  prun(500);
   output_hot_tower();
   std::cout << "File done." << std::endl;
 }
